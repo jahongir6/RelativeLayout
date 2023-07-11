@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <!-- bu javohir asadni chap taraf yoniga yopishib oladi
+       android:=layout_toLeftOf"@id/javohir"-->
+    <!-- bu javohir asadni ong taraf yoniga yopishib oladi
+    android:=layout_toRightOf"@id/javohir"-->
+    <!-- bu javohir asadni yuqorisga yopishib oladi
+       android:layout_above="@id/javohir"-->
+    <!-- bu javohir asadni patiga yopishib oladi
+       android:layout_belov="@id/javohir"-->
+    <!-- <View
+    // bu faqat bitta view parentga nisbatan joylashuv
+         android:layout_width="100dp"
+         android:layout_height="100dp"
+         android:layout_alignParentStart="true"
+         android:layout_alignParentTop="true"
+         android:layout_alignParentEnd="true"
+         android:layout_alignParentBottom="true"
+         android:layout_centerInParent="true"
+         android:background="@color/purple_200" />-->
+    <View
+        android:id="@+id/javohir"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:background="@color/purple_200" />
+
+    <View
+        android:id="@+id/asad"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@color/purple_500" />
+</RelativeLayout>
